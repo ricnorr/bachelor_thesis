@@ -2,7 +2,7 @@
 This repository holds data and code for my Bachelor thesis: *"Exploring machine learning models for churn prediction of membership subscriptions"*. The goal is to test different ML models to predict if a member will be renewing their yearly membership.
 
 # Business objective
-TBD 
+Devise a ML model for for predicting who won't be renewing their membership and to determine if the non-renewing member can be converted 3 months prior to their renewal date.
 
 # Data
 General facts:
@@ -35,9 +35,12 @@ Information about member drop and join dates.
    4. [x] Create a master dataset - merge
    5. [ ] Ensure data integrity
    6. [ ] Aggregate 3-, 6-, 9- month datasets
-   7. [ ] Label renewal/not renewal
+   7. [ ] Label: renewing/not renewing
 3. [ ] 3. Explore data (each of the 3-, 6-, 9- month aggregated datasets)
-   1. [ ] Feature engineering
+   1. [ ] Feature engineering:
+      1. [ ] Seat popularity rate
+      2. [ ] Chapter retention rate
+      3. [ ] Chapter size
    2. [ ] Feature selection
    3. [ ] Exploratory Data Analysis:
       1. [ ] Summary Statistics
